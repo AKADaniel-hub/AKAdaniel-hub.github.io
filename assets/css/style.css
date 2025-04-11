@@ -1,0 +1,26 @@
+.progress-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.progress-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    transition: background-color 0.3s ease;
+
+    transition: background-color 0.3s ease;
+    position: relative;
+    z-index: 1;
+}
+
+.caption {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.filled {
+    background-color: #747474;
+    /* cor das bolinhas preenchidas */
+}
